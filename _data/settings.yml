@@ -36,9 +36,8 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: DeepLoop Labs
-  hero-desc: provides AI solutions and tech staff augmentation for enterprises and startups alike.
-
+  hero-title: provides AI solutions and tech staff augmentation for enterprises and startups alike
+  
 social:
   - { icon: "ti-twitter", link: "#" }
 
