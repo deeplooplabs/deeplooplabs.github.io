@@ -2,8 +2,6 @@
 layout: about
 title: About DeepLoop Labs
 author: DeepLoop Labs
-image: assets/images/about/author.jpg
-signature: assets/images/about/signature.png
 ---
 
 DeepLoop Labs is a technology consulting firm specialized in artificial intelligence solutions and elite engineering talent acquisition. We help forward-thinking enterprises navigate the complexities of digital transformation by bridging the gap between cutting-edge AI capabilities and production-ready engineering teams.
@@ -28,7 +26,3 @@ Our consultants help you chart a clear path forward, evaluating AI readiness, se
 We operate as true partners in your success. Rather than delivering generic solutions, we take time to understand your unique challenges, constraints, and objectives. This allows us to architect implementations that genuinely move the needle for your business.
 
 Every engagement is backed by our commitment to knowledge transfer, ensuring your team builds self-sufficiency over time. We measure our success by the sustained impact we create, not by billable hours or project deliverables alone.
-
-## Get in Touch
-
-Whether you're exploring AI for the first time or looking to optimize existing implementations, we'd love to hear from you. Reach out to discuss how we can help accelerate your technology initiatives.
