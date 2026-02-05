@@ -17,11 +17,22 @@
 .navbar{
   .navbar-brand {
     padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
     .navbar-logo {
-      max-height: 32px;
+      max-height: 36px;
       width: auto;
-      max-width: 140px;
+      border-radius: 6px;
+    }
+
+    .navbar-brand-text {
+      font-family: $secondary-font;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: $white;
+      letter-spacing: 0.5px;
     }
   }
 
