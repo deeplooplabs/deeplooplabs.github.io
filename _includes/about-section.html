@@ -10,3 +10,29 @@
   </div>
 </section>
 <!-- /about -->
+
+<!-- work process -->
+{% if site.data.settings.work-process %}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      {% for process in site.data.settings.work-process %}
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="process-item mb-5 mb-md-0">
+          <i class="{{ process.icon | replace: '.png', '' }} icon d-inline-block mb-4 rounded-circle bg-primary text-white" style="width: 60px; height: 60px; line-height: 60px; font-size: 24px;">
+            {% if process.icon contains '.png' %}
+            <img src="{{ site.baseurl }}/{{ process.icon }}" alt="{{ process.title }}" style="width: 28px; height: 28px;">
+            {% else %}
+            <i class="{{ process.icon }}"></i>
+            {% endif %}
+          </i>
+          <h4 class="mb-4">{{ process.title }}</h4>
+          <p>{{ process.content }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- /work process -->

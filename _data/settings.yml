@@ -4,11 +4,11 @@
 
 title: DeepLoop Labs
 logo:
-author: qiulin
-description: provides AI solutions and tech staff augmentation for enterprises and startups alike.
+author: DeepLoop Labs
+description: Empowering enterprises with enterprise AI solutions and elite technology talent.
 email: hello@deeploop.dev
-phone: 
-address: 
+phone:
+address:
 copyright: Copyright &copy; 2025 DeepLoop Labs
 
 menu:
@@ -36,35 +36,38 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: provides AI solutions and tech staff augmentation for enterprises and startups alike
-  
+  hero-title: Building the Future of Enterprise Intelligence
+  hero-subtitle: We help forward-thinking companies integrate AI solutions and scale engineering teams.
+
 social:
+  - { icon: "ti-linkedin", link: "https://linkedin.com/company/deeplooplabs" }
   - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-github", link: "https://github.com/deeplooplabs" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: About
+blurb: DeepLoop Labs bridges the gap between cutting-edge AI technology and enterprise-grade engineering. We partner with ambitious organizations to accelerate digital transformation through intelligent automation and world-class technical talent.
 
 blurb-btn-link: "/about"
-blurb-btn-name: Coming Soon
+blurb-btn-name: Learn More
 
 # About Page
 
 # Work Process Section
 work-process:
-  - title: "Research and Plan"
+  - title: "Discovery & Strategy"
     icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "We analyze your business objectives, technical infrastructure, and AI readiness to formulate a comprehensive implementation strategy."
 
-  - title: "Design and Develop"
+  - title: "Solution Design"
     icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "Our architects design scalable AI solutions tailored to your environment, ensuring seamless integration with existing systems."
 
-  - title: "Deliver"
+  - title: "Implementation"
     icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "We deploy and integrate AI solutions with your team, providing knowledge transfer and ongoing support for sustainable growth.
 
 # My Team Section
 # team:
@@ -75,12 +78,12 @@ work-process:
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: Our Capabilities
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: "Machine Learning", color: "#7c3aed", value: "95%" }
+  - { name: "NLP & LLMs", color: "#2563eb", value: "90%" }
+  - { name: "Cloud Architecture", color: "#0891b2", value: "88%" }
+  - { name: "Data Engineering", color: "#059669", value: "85%" }
 
 #-------------------------------
 # Exprerience Section
@@ -120,22 +123,22 @@ experience:
 services-title: Services
 services:
   - {
-      name: Appsets Commercial,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      name: AI Solutions,
+      icon: ti-rocket,
+      description: "End-to-end AI implementation including machine learning pipelines, predictive analytics, and intelligent automation systems.",
+      active: true,
     }
   - {
-      name: AI,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
+      name: Engineering Teams,
+      icon: ti-users,
+      description: "Scale your development team with vetted senior engineers skilled in cloud infrastructure, distributed systems, and modern frameworks.",
+      active: true,
     }
   - {
-      name: Training & Courses,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      name: AI Consultation,
+      icon: ti-light-bulb,
+      description: "Strategic guidance on AI adoption, technology selection, and roadmap planning for enterprise digital transformation initiatives.",
+      active: true,
     }
 
 #-------------------------------
@@ -260,5 +263,6 @@ client-slider-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
+contact-title: Get in Touch
 contact-email: hello@deeploop.dev
+contact-message: Ready to transform your business with AI? Send us a message and we'll schedule a consultation.

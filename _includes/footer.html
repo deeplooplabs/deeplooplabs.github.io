@@ -3,23 +3,40 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
+        <div class="col-md-5">
+          <h5 class="text-light mb-4">{{ site.data.settings.title }}</h5>
+          <p class="text-white paragraph-lg font-secondary mb-4">{{ site.data.settings.description }}</p>
+          <!-- social links -->
+          <ul class="list-unstyled footer-social-links mb-0">
+            {% for social in site.data.settings.social %}
+            <li class="d-inline-block mr-3">
+              <a href="{{ social.link }}" class="text-white" target="_blank" rel="noopener noreferrer">
+                <i class="{{ social.icon }}"></i>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
+        <div class="col-md-3 offset-md-1">
+          <h5 class="text-light">Contact</h5>
+          <p class="text-white paragraph-lg font-secondary">
+            {% if site.data.settings.email %}
+            <a href="mailto:{{ site.data.settings.email }}" class="text-white">{{ site.data.settings.email }}</a>
+            {% endif %}
+          </p>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
+        <div class="col-md-3">
+          <h5 class="text-light">Quick Links</h5>
+          <ul class="list-unstyled footer-menu-links">
+            <li><a href="/about" class="text-white">About</a></li>
+            <li><a href="/blog" class="text-white">Blog</a></li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">{{site.data.settings.copyright | markdownify}}</p>
+  <div class="border-top text-center border-dark py-4">
+    <p class="mb-0 text-light">{{ site.data.settings.copyright | markdownify }}</p>
   </div>
 </footer>
 <!-- /footer -->
