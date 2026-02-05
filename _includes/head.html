@@ -23,8 +23,13 @@
   <link href="{{ '/assets/scss/style.css' | relative_url }}" rel="stylesheet">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
+  {% if site.favicon %}
+  <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
+  {% else %}
+  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/x-icon">
+  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/x-icon">
+  {% endif %}
 
   <!-- google analytics -->
   {% if site.data.settings.google-analytics %}
